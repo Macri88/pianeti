@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+* {
+  font-family: "EB Garamond", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 40px;
+  background-color: #14213d;
+  color: #fca311;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+main {
+  width: calc(100% - 30px);
+  /* padding: 10px; */
+  margin: 10px auto;
+}
+
+.info {
+  background-color: #fca311;
+  border: 3px solid #14213d;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.info h2 {
+  text-align: center;
+  color: #14213d;
+}
+
+ul {
+  margin-left: 30px;
+  list-style: none;
+  list-style-image: url(./icon/icons8-pianeta-10.png);
+  padding: 10px;
+}
+
+.cards {
+  width: calc(100% - 30px);
+  margin: 0  auto;
+  
+}
+
+.card {
+  border: 1px solid #14213d;
+  width: 33%;
+  font-size: smaller;
+  display: inline-block;
+    margin-bottom: 10px;
+  text-align: justify;
+}
+
+.card h3 {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #14213d;
+}
+
+footer {
+  margin-top: 20px;
+  height: 100px;
+  background-color: #fca311;
+  line-height: 100px;
+  font-size: 10px;
+}
+.card p {
+  padding: 10px;
+  font-size: small;
+}
+
+.card p + p {
+  cursor: pointer;
+  border-top: 1px solid #14213d;
+  padding: 10px;
+  text-align: center;
+}
